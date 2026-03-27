@@ -17,16 +17,16 @@ const hasValidMapsKey = Boolean(GOOGLE_MAPS_API_KEY) && GOOGLE_MAPS_API_KEY !== 
 const FOOD_TRUCK_LOCATION = { lat: -34.6037, lng: -58.3816 };
 
 const ASSETS = {
-  heroVideo: "https://tligscofqdyubgmumyla.supabase.co/storage/v1/object/sign/urls%20web/choripan.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZjQwOWM4Zi0wYmI1LTQyODMtYjZlZS1iNDQ2MTY3YjQxMzUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1cmxzIHdlYi9jaG9yaXBhbi53ZWJwIiwiaWF0IjoxNzczOTcxNDExLCJleHAiOjE3NzQ1NzYyMTF9.v39J0adkBlaX7oqp2Awayc2qQxaEdfyG6i21aXuIghI",
-  logo: "https://tligscofqdyubgmumyla.supabase.co/storage/v1/object/sign/urls%20web/cartelneon-ezgif.com-png-to-webp-converter.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZjQwOWM4Zi0wYmI1LTQyODMtYjZlZS1iNDQ2MTY3YjQxMzUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1cmxzIHdlYi9jYXJ0ZWxuZW9uLWV6Z2lmLmNvbS1wbmctdG8td2VicC1jb252ZXJ0ZXIud2VicCIsImlhdCI6MTc3Mzk3NDA2OCwiZXhwIjoxNzc0NTc4ODY4fQ.U-jVAIbEmY8iHUvLVlZaiDWhwanKkeHeovH3xsvBVH8",
-  mascotVideo: "https://tligscofqdyubgmumyla.supabase.co/storage/v1/object/sign/urls%20web/foodtruck.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZjQwOWM4Zi0wYmI1LTQyODMtYjZlZS1iNDQ2MTY3YjQxMzUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1cmxzIHdlYi9mb29kdHJ1Y2sud2VicCIsImlhdCI6MTc3Mzk3NDc3NywiZXhwIjoxNzc0NTc5NTc3fQ.3v7wHpN26TaPPRISo8qWjdlo98JJgY-L_tLstVTPoww",
+  heroVideo: "https://tligscofqdyubgmumyla.supabase.co/storage/v1/object/sign/urls%20web/choripan.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZjQwOWM4Zi0wYmI1LTQyODMtYjZlZS1iNDQ2MTY3YjQxMzUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1cmxzIHdlYi9jaG9yaXBhbi53ZWJwIiwiaWF0IjoxNzc0NjQ0OTY0LCJleHAiOjE4MDYxODA5NjR9.zemZ7uvuTA4vBnYNHZ1V3DQoIiNhYqMdYOCSosOI0zw",
+  logo: "https://tligscofqdyubgmumyla.supabase.co/storage/v1/object/sign/urls%20web/cartelneon-ezgif.com-png-to-webp-converter.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZjQwOWM4Zi0wYmI1LTQyODMtYjZlZS1iNDQ2MTY3YjQxMzUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1cmxzIHdlYi9jYXJ0ZWxuZW9uLWV6Z2lmLmNvbS1wbmctdG8td2VicC1jb252ZXJ0ZXIud2VicCIsImlhdCI6MTc3NDY0NDkyOSwiZXhwIjoxODA2MTgwOTI5fQ.AHQ2kQ0QPUca4SwWC-P_p7d2tqVAiYVLvuDFD0ip_YM",
+  mascotVideo: "https://tligscofqdyubgmumyla.supabase.co/storage/v1/object/sign/urls%20web/foodtruck.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZjQwOWM4Zi0wYmI1LTQyODMtYjZlZS1iNDQ2MTY3YjQxMzUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1cmxzIHdlYi9mb29kdHJ1Y2sud2VicCIsImlhdCI6MTc3NDY0NTExMSwiZXhwIjoxODA2MTgxMTExfQ.2yxhcbIrDI_P9ME7JlE-m0A2YLsibBrDxeRNELMT9bI",
   products: [
     {
       id: 1,
       name: "Choripán Argentino",
       description: "Chorizo jugoso a la parrilla, pan crocante y chimichurri casero.",
       price: "$6.000",
-      image: "https://tligscofqdyubgmumyla.supabase.co/storage/v1/object/sign/urls%20web/Choripnargentinoconpapasfritas-ezgif.com-jpg-to-webp-converter.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZjQwOWM4Zi0wYmI1LTQyODMtYjZlZS1iNDQ2MTY3YjQxMzUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1cmxzIHdlYi9DaG9yaXBuYXJnZW50aW5vY29ucGFwYXNmcml0YXMtZXpnaWYuY29tLWpwZy10by13ZWJwLWNvbnZlcnRlci53ZWJwIiwiaWF0IjoxNzczOTc1MDk4LCJleHAiOjE3NzQ1Nzk4OTh9.fLKQiUsNGtwq18Sg17cidXkQxC_To5ghJ2MDIgCNuQI",
+      image: "https://tligscofqdyubgmumyla.supabase.co/storage/v1/object/sign/urls%20web/Choripnargentinoconpapasfritas-ezgif.com-jpg-to-webp-converter.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZjQwOWM4Zi0wYmI1LTQyODMtYjZlZS1iNDQ2MTY3YjQxMzUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1cmxzIHdlYi9DaG9yaXBuYXJnZW50aW5vY29ucGFwYXNmcml0YXMtZXpnaWYuY29tLWpwZy10by13ZWJwLWNvbnZlcnRlci53ZWJwIiwiaWF0IjoxNzc0NjQ1MDAyLCJleHAiOjE4MDYxODEwMDJ9.N11dJDRO0JQfv5jrjEEMU3JTQ7k3T0NwGtFekqLQpVc",
       badge: "🔥 Más vendido"
     },
     {
@@ -34,7 +34,7 @@ const ASSETS = {
       name: "Sándwich de Bondiola",
       description: "Bondiola a la parrilla, queso derretido, lechuga y tomate en pan rústico.",
       price: "$5.000",
-      image: "https://tligscofqdyubgmumyla.supabase.co/storage/v1/object/sign/urls%20web/Sndwichdebondiolaconpapasfritas-ezgif.com-jpg-to-webp-converter.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZjQwOWM4Zi0wYmI1LTQyODMtYjZlZS1iNDQ2MTY3YjQxMzUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1cmxzIHdlYi9TbmR3aWNoZGVib25kaW9sYWNvbnBhcGFzZnJpdGFzLWV6Z2lmLmNvbS1qcGctdG8td2VicC1jb252ZXJ0ZXIud2VicCIsImlhdCI6MTc3Mzk3NTA4NCwiZXhwIjoxNzc0NTc5ODg0fQ.6-Qpexrm1fk3gRBMZlD5UzlExh5trailJPJsqevDpxo",
+      image: "https://tligscofqdyubgmumyla.supabase.co/storage/v1/object/sign/urls%20web/Sndwichdebondiolaconpapasfritas-ezgif.com-jpg-to-webp-converter.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZjQwOWM4Zi0wYmI1LTQyODMtYjZlZS1iNDQ2MTY3YjQxMzUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1cmxzIHdlYi9TbmR3aWNoZGVib25kaW9sYWNvbnBhcGFzZnJpdGFzLWV6Z2lmLmNvbS1qcGctdG8td2VicC1jb252ZXJ0ZXIud2VicCIsImlhdCI6MTc3NDY0NTAyNSwiZXhwIjoxODA2MTgxMDI1fQ.IROvIsvnCX5UWCtfkF6XoVBsJuDgkZy9A8vGCoTd5uo",
       badge: "⭐ Recomendado"
     },
     {
@@ -42,7 +42,7 @@ const ASSETS = {
       name: "Hamburguesa Doble",
       description: "Doble carne, queso derretido, lechuga, tomate y pan crocante.",
       price: "$6.000",
-      image: "https://tligscofqdyubgmumyla.supabase.co/storage/v1/object/sign/urls%20web/Hamburguesadobleconpatatasfritas-ezgif.com-jpg-to-webp-converter.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZjQwOWM4Zi0wYmI1LTQyODMtYjZlZS1iNDQ2MTY3YjQxMzUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1cmxzIHdlYi9IYW1idXJndWVzYWRvYmxlY29ucGF0YXRhc2ZyaXRhcy1lemdpZi5jb20tanBnLXRvLXdlYnAtY29udmVydGVyLndlYnAiLCJpYXQiOjE3NzM5NzUxMjEsImV4cCI6MTc3NDU3OTkyMX0.Y9ojio4IFzQvN8KbO9xpffom8g7ehfHYb8ngM3UngDw",
+      image: "https://tligscofqdyubgmumyla.supabase.co/storage/v1/object/sign/urls%20web/Sndwichdebondiolaconpapasfritas-ezgif.com-jpg-to-webp-converter.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZjQwOWM4Zi0wYmI1LTQyODMtYjZlZS1iNDQ2MTY3YjQxMzUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1cmxzIHdlYi9TbmR3aWNoZGVib25kaW9sYWNvbnBhcGFzZnJpdGFzLWV6Z2lmLmNvbS1qcGctdG8td2VicC1jb252ZXJ0ZXIud2VicCIsImlhdCI6MTc3NDY0NTA3MCwiZXhwIjoxODA2MTgxMDcwfQ.GoHEBAJuhIDMRu488ADkaK0UBvSQS_EXc4BRFxdZG_Q",
       badge: "🔥 Más vendido"
     },
     {
@@ -50,7 +50,7 @@ const ASSETS = {
       name: "Salchipapas",
       description: "Papas fritas con salchichas troceadas y salsas especiales.",
       price: "$450",
-      image: "https://tligscofqdyubgmumyla.supabase.co/storage/v1/object/sign/urls%20web/Salchipapasconsalsayhierbas-ezgif.com-jpg-to-webp-converter.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZjQwOWM4Zi0wYmI1LTQyODMtYjZlZS1iNDQ2MTY3YjQxMzUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1cmxzIHdlYi9TYWxjaGlwYXBhc2NvbnNhbHNheWhpZXJiYXMtZXpnaWYuY29tLWpwZy10by13ZWJwLWNvbnZlcnRlci53ZWJwIiwiaWF0IjoxNzczOTc1MTM4LCJleHAiOjE3NzQ1Nzk5Mzh9.rlRisHmxLVZWzCPDdVS0Edm5DmOIw9XiNrRat-bbrTU"
+      image: "https://tligscofqdyubgmumyla.supabase.co/storage/v1/object/sign/urls%20web/Salchipapasconsalsayhierbas-ezgif.com-jpg-to-webp-converter.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZjQwOWM4Zi0wYmI1LTQyODMtYjZlZS1iNDQ2MTY3YjQxMzUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1cmxzIHdlYi9TYWxjaGlwYXBhc2NvbnNhbHNheWhpZXJiYXMtZXpnaWYuY29tLWpwZy10by13ZWJwLWNvbnZlcnRlci53ZWJwIiwiaWF0IjoxNzc0NjQ1MDg5LCJleHAiOjE4MDYxODEwODl9.T64W3LW6n81NFDqvnvu-C7r6X-roCuWFo6ALlhrsnIE"
     }
   ],
   promos: [
@@ -58,13 +58,13 @@ const ASSETS = {
       id: 1,
       name: "Combo Amigos: 2 Choripanes + Papas",
       price: "$11.000",
-      image: "https://tligscofqdyubgmumyla.supabase.co/storage/v1/object/sign/urls%20web/Choripnargentinoconpapasfritas-ezgif.com-jpg-to-webp-converter.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZjQwOWM4Zi0wYmI1LTQyODMtYjZlZS1iNDQ2MTY3YjQxMzUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1cmxzIHdlYi9DaG9yaXBuYXJnZW50aW5vY29ucGFwYXNmcml0YXMtZXpnaWYuY29tLWpwZy10by13ZWJwLWNvbnZlcnRlci53ZWJwIiwiaWF0IjoxNzczOTc1MDk4LCJleHAiOjE3NzQ1Nzk4OTh9.fLKQiUsNGtwq18Sg17cidXkQxC_To5ghJ2MDIgCNuQI"
+      image: "https://tligscofqdyubgmumyla.supabase.co/storage/v1/object/sign/urls%20web/Choripnargentinoconpapasfritas-ezgif.com-jpg-to-webp-converter.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZjQwOWM4Zi0wYmI1LTQyODMtYjZlZS1iNDQ2MTY3YjQxMzUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1cmxzIHdlYi9DaG9yaXBuYXJnZW50aW5vY29ucGFwYXNmcml0YXMtZXpnaWYuY29tLWpwZy10by13ZWJwLWNvbnZlcnRlci53ZWJwIiwiaWF0IjoxNzc0NjQ1MDAyLCJleHAiOjE4MDYxODEwMDJ9.N11dJDRO0JQfv5jrjEEMU3JTQ7k3T0NwGtFekqLQpVc"
     },
     {
       id: 2,
       name: "Promo Bondiola: Sándwich + Bebida",
       price: "$6.500",
-      image: "https://tligscofqdyubgmumyla.supabase.co/storage/v1/object/sign/urls%20web/Sndwichdebondiolaconpapasfritas-ezgif.com-jpg-to-webp-converter.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZjQwOWM4Zi0wYmI1LTQyODMtYjZlZS1iNDQ2MTY3YjQxMzUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1cmxzIHdlYi9TbmR3aWNoZGVib25kaW9sYWNvbnBhcGFzZnJpdGFzLWV6Z2lmLmNvbS1qcGctdG8td2VicC1jb252ZXJ0ZXIud2VicCIsImlhdCI6MTc3Mzk3NTA4NCwiZXhwIjoxNzc0NTc5ODg0fQ.6-Qpexrm1fk3gRBMZlD5UzlExh5trailJPJsqevDpxo"
+      image: "https://tligscofqdyubgmumyla.supabase.co/storage/v1/object/sign/urls%20web/Sndwichdebondiolaconpapasfritas-ezgif.com-jpg-to-webp-converter.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mZjQwOWM4Zi0wYmI1LTQyODMtYjZlZS1iNDQ2MTY3YjQxMzUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ1cmxzIHdlYi9TbmR3aWNoZGVib25kaW9sYWNvbnBhcGFzZnJpdGFzLWV6Z2lmLmNvbS1qcGctdG8td2VicC1jb252ZXJ0ZXIud2VicCIsImlhdCI6MTc3NDY0NTAyNSwiZXhwIjoxODA2MTgxMDI1fQ.IROvIsvnCX5UWCtfkF6XoVBsJuDgkZy9A8vGCoTd5uo"
     }
   ],
   reviews: [
